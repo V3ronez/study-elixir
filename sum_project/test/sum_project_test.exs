@@ -1,8 +1,15 @@
 defmodule SumProjectTest do
   use ExUnit.Case
-  doctest SumProject
 
-  test "greets the world" do
-    assert SumProject.hello() == :world
+describe "call/1" do
+  test "receive a list and return the sum of all then" do
+    list = [1,2,3]
+    response = SumProject.call(list)
+
+    expected_return = 6
+
+    assert response == expected_return
   end
+end
+
 end
