@@ -35,6 +35,4 @@ ex: name = "henrique" -> String.uppercase(name) -> "HENRIQUE" ✅ <br>
 ### Test em Elixir
   - Os testes em elixir são feitos a partir de arquivos com a extensão ".exs". Os tests são bem parecidos com os teste feito em Jest (Lib de testes automaticos para Javascript).<br>
   Vai ser criado um arquivo com o nome com a funcionalidade que está sendo testada e ele deve ser chamado o modulo "ExUnit.Case". Esse modulo nos tras as principais funções que vamos usar nos testes(describe, test, assert).
-  - Ex: Teste da função parse_file() do Module ReportsGenerator.Parse.<br>
-  ![exemplo de teste em elixir](https://drive.google.com/file/d/1e4UzFcirY522HV2E1NR4QwzwW7WSrHgH/view)
 
