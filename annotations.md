@@ -20,9 +20,8 @@ ex: name = "henrique" -> String.uppercase(name) -> "HENRIQUE" ✅ <br>
 <br>
 (obs: atom são constantes que o valor é ela mesma)<br>
 (obs: das listas, so podemos acessar ela por completo, o head(hd - primeiro elemento da lista) ou o tail(tl - toda a lista menos o primeiro elemento))<br>
-(obs: tuple muito usada como retorno de funções)<br>
-### Elixir é uma linguagem imutável
-
+(obs: tuple muito usada como retorno de funções)
+### Elixir é uma linguagem
   - isso que dizer que quando um espaço é alocado na memória ele jamais deve tomar outro valor a não ser que seja reatribuido.<br>
   ex: name = "henrique" -> String.upcase(name) -> "HENRIQUE". Mas name ainda tem o valor de "henrique". Para reatribuir teria que ser feito dessa maneira.<br>
   ex: name = "henrique" -> name = String.upcase(name) -> "HENRIQUE" -> name = "HENRIQUE"
